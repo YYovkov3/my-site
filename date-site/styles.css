@@ -1,0 +1,137 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 2px solid #DEDEDE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+.head-ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 16px;
+    color: #8CA9BE;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lito{
+    padding: 2px;
+    color: white;
+    background: #48A3B7;
+}
+#languages {
+    display: none;
+  }
+  
+  #languages.show {
+    display: block;
+  }
+.logo{
+    font-size: 25px;
+    background: linear-gradient(to bottom, black, #8CA9BE);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px #8CA9BE;
+}
+a{
+    text-decoration: none;
+}
+#languages a{
+    border: 1px solid black;
+    color: black;
+    padding: 2px;
+}
+img{
+    height: 100vh;
+    width: 1000px;
+}
+.main-content{
+    display: flex;
+    background-color: #FAFAFA;
+}
+.content{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+h1{
+    font-size: 80px;
+    width: 100vh;
+    height: 200px;
+    color: #8CA9BE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    background: #48A3B7;
+    color: black;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 26px;
+    font-style: italic;
+}
+.slider-container {
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0.3;
+  }
+  
+  .prev:hover, .next:hover {
+    opacity: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
