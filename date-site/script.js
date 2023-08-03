@@ -43,3 +43,17 @@ function showNextPrev() {
 }
 
 showNextPrev();
+function toggleNightMode() {
+  const body = document.body;
+  body.classList.toggle("night-mode");
+}
+
+// Проверка дали има предпочитания на потребителя за нощен режим
+const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+if (prefersDarkMode) {
+  document.body.classList.add("night-mode");
+}
+
+// Извикваме функцията при клик върху бутона за превключване на нощния режим
+const nightModeBtn = document.getElementById('nightModeBtn');
+nightModeBtn.addEventListener('click', toggleNightMode);

@@ -78,7 +78,7 @@ h1{
     color: #8CA9BE;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-button{
+.az{
     background: #48A3B7;
     color: black;
     padding: 20px 30px;
@@ -96,7 +96,7 @@ p{
     overflow: hidden;
     position: relative;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 400px;
   }
   
   .slider {
